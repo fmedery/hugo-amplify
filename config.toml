@@ -1,4 +1,4 @@
-baseURL = "http://blog.frederic.cloud/"
+baseURL = "https://blog.frederic.cloud/"
 languageCode = "fr-ca"
 title = "Core Dump"
 theme = "ezhil"
