@@ -1,13 +1,12 @@
 baseURL = "http://blog.frederic.cloud/"
 languageCode = "fr-ca"
 title = "Core Dump"
-
 theme = "ezhil"
 
 # Enable syntax highlighting.
-pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+#pygmentsstyle = "vs"
+#pygmentscodefences = true
+#pygmentscodefencesguesssyntax = true
 
 [params]
 # Switch to dark mode or auto detect mode from OS (Optional).
