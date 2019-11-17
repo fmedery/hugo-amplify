@@ -1,5 +1,18 @@
 baseURL = "http://blog.frederic.cloud/"
 languageCode = "fr-ca"
-title = "F Blog"
+title = "Core Dump"
 
-theme = "learn"
+theme = "ezhil"
+
+# Enable syntax highlighting.
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+# Switch to dark mode or auto detect mode from OS (Optional).
+# "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
+mode = "auto" # "dark" or "auto"
+
+# Content types which are excludes Disqus comments.
+disableDisqusTypes = ["page"]
