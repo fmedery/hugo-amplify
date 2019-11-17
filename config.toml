@@ -8,10 +8,10 @@ theme = "ezhil"
 #pygmentscodefences = true
 #pygmentscodefencesguesssyntax = true
 
-[params]
+#[params]
 # Switch to dark mode or auto detect mode from OS (Optional).
 # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-mode = "auto" # "dark" or "auto"
+#mode = "auto" # "dark" or "auto"
 
 # Content types which are excludes Disqus comments.
-disableDisqusTypes = ["page"]
+#disableDisqusTypes = ["page"]
