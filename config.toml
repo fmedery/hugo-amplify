@@ -8,10 +8,31 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-#[params]
+[params]
 # Switch to dark mode or auto detect mode from OS (Optional).
 # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
 mode = "auto" # "dark" or "auto"
 
 # Content types which are excludes Disqus comments.
 disableDisqusTypes = ["page"]
+
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/fmedery"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/fmedery"
+
+[[menu.main]]
+name = "Home" #Name in the navigation bar
+weight = 10 #The larger the weight, the more on the right this item will be
+url = "/" #URL address
+[[menu.main]]
+name = "Posts"
+weight = 20
+url = "/posts/"
